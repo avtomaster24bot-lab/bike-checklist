@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Спасибо! Скачайте чек-лист</title>
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Чек-лист покупки б/у велосипеда">
+<meta property="og:image" content="https://avtomaster24bot-lab.github.io/bike-checklist/og.png">
+<meta name="theme-color" content="#16a34a">
+<link rel="preload" href="fonts/nunito.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script src="config.js" defer></script>
+</head>
+<body>
+<main class="ok">
+  <div class="wrap okbox">
+    <div class="tick" aria-hidden="true"></div>
+    <h1>Спасибо! Оплата прошла. Скачайте файл:</h1>
+    <div class="stack">
+      <a class="btn block" data-pdf href="files/checklist.pdf" download>Скачать чек-лист (PDF)</a>
+      <a class="btn ghost block" data-xlsx href="files/checklist-tables.xlsx" download>Скачать таблицу (Excel)</a>
+    </div>
+    <div class="tgbox">
+      <p><b>Пришлите чек об оплате в Telegram</b> — так я смогу помочь, если что-то не скачается.</p>
+      <a class="btn tg block" data-tg href="https://t.me/GrifRift555" target="_blank" rel="noopener">Написать в Telegram</a>
+    </div>
+    <a class="back" href="./">← Вернуться на главную</a>
+  </div>
+</main>
+</body>
+</html>
