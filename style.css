@@ -73,3 +73,10 @@ footer a{color:#fff;font-weight:700}
 .price .pbox p{color:#374151}
 .small a{color:var(--g);font-weight:800}
 @media (min-width:800px){.cards.c5{grid-template-columns:repeat(6,1fr)}.cards.c5 .card{grid-column:span 2}.cards.c5 .card:nth-child(4){grid-column:2/span 2}.cards.c5 .card:nth-child(5){grid-column:4/span 2}.facts{grid-template-columns:1fr 1fr}}
+.tgi{width:22px;height:22px;flex:0 0 22px;margin-right:2px}
+.btn{gap:10px}
+.steps{list-style:none;counter-reset:s;padding:0;margin:0;display:grid;gap:12px}
+.steps li{counter-increment:s;position:relative;background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 18px 18px 70px;color:#374151}
+.steps li::before{content:counter(s);position:absolute;left:18px;top:18px;width:36px;height:36px;border-radius:50%;background:var(--g);color:#fff;font-weight:900;display:flex;align-items:center;justify-content:center;font-size:18px}
+.steps li b{display:block;color:var(--ink);font-size:18px;margin-bottom:2px}
+@media (min-width:800px){.steps{grid-template-columns:repeat(3,1fr)}}
